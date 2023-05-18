@@ -85,3 +85,5 @@ if(clicked == True):
     with columns[1]:
         st.download_button("엑셀 파일 다운로드", 
         excel_data, file_name='stock_data.xlsx')
+
+        st.write('hello')
